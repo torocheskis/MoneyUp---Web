@@ -1,0 +1,11 @@
+@{ ViewData["Title"] = "Bienvenido"; }
+<div class="access-page">
+    <partial name="_AccessHeader" />
+    <main class="access-main welcome-main">
+        <div class="welcome-illustration"><img src="~/images/moneyup-logo.svg" alt="Logo de MoneyUp" /></div>
+        <div class="welcome-copy"><h1>¡Bienvenido a <span class="name-money">Money</span><span class="name-up">Up</span>!</h1>
+            <div class="welcome-actions"><a class="access-button purple-button" asp-controller="Cuenta" asp-action="IniciarSesion">Iniciar sesión</a><a class="access-button blue-button" asp-controller="Cuenta" asp-action="Registrarse">Registrarse</a></div>
+        </div>
+    </main>
+    <partial name="_AccessFooter" />
+</div>

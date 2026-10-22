@@ -1,38 +1,25 @@
 # MoneyUp
 
-MoneyUp es una aplicación web orientada a jóvenes para organizar y comprender mejor sus finanzas personales.
+Aplicación web de finanzas personales orientada a jóvenes.
 
-## Estado actual
+## Incluye
+- Landing pública como página inicial
+- Bienvenida
+- Inicio de sesión
+- Registro
+- Estilos e identidad visual
+- Íconos de MoneyUp
+- Estructura ASP.NET Core MVC preparada para continuar con base de datos y autenticación
 
-La versión actual incluye:
-
-- Landing pública como pantalla inicial (`/`)
-- Pantalla de bienvenida (`/inicio`)
-- Inicio de sesión (`/iniciar-sesion`)
-- Registro (`/registrarse`)
-- Identidad visual y recursos gráficos de MoneyUp
-- Formularios preparados para incorporar persistencia y autenticación en una etapa posterior
-
-## Tecnologías
-
-- ASP.NET Core MVC
-- .NET 9
-- Razor Views
-- HTML y CSS
-
-## Ejecución
-
-Desde la carpeta del proyecto:
-
+## Ejecutar
 ```bash
 dotnet run --project MoneyUp.Web.csproj
 ```
 
-Luego abrir la URL local indicada por ASP.NET Core.
+Rutas:
+- `/` — Landing
+- `/inicio` — Bienvenida
+- `/iniciar-sesion` — Inicio de sesión
+- `/registrarse` — Registro
 
-## Próximas etapas
-
-- Conexión con base de datos
-- Registro e inicio de sesión reales
-- Gestión de movimientos, metas y estadísticas
-- Integración del asistente educativo Up
+> Eras Demi ITC no está versionada. Si tenés una copia autorizada, colocala en `wwwroot/fonts/eras-itc-demi.ttf`.
